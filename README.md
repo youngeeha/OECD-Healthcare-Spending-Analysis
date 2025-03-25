@@ -2,12 +2,12 @@
 
 This project explores the relationship between government healthcare expenditure and health outcomes, focusing on average life expectancy across OECD countries. It was developed as a final project for Harvard’s COMPSCI 109A: Introduction to Data Science.
 
-## 📊 Project Objective
+## 📊 Project objective
 
 To answer the question:  
 **"How effective is healthcare spending in improving a country's life expectancy, controlling for economic and educational factors?"**
 
-## Key Concepts
+## Key concepts
 
 - Panel data analysis
 - Multiple linear regression
@@ -17,7 +17,7 @@ To answer the question:
 - Data cleaning and visualization
 - Fixed effects for country and year
 
-## 🛠Tools & Technologies
+## Tools
 
 - **Python**
 - `pandas` for data wrangling  
@@ -27,7 +27,7 @@ To answer the question:
 - Jupyter Notebook for development
 
 
-## 🔍 Findings
+## Findings
 
 - Healthcare expenditure alone is a weak predictor of life expectancy.
 - Multicollinearity among spending categories (e.g., GDP, education) complicates modeling.
@@ -35,7 +35,7 @@ To answer the question:
 - Polynomial terms revealed diminishing returns on healthcare spending in some contexts.
 - U.S. healthcare spending patterns diverge significantly from other OECD countries.
 
-## Future Work
+## Future work
 
 - Apply clustering to group countries by healthcare effectiveness.
 - Extend model with additional health outcome metrics (e.g., infant mortality).
