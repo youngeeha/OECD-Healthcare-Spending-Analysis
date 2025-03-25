@@ -38,9 +38,6 @@ To answer the question:
 - Polynomial terms revealed diminishing returns on healthcare spending in some contexts.
 - U.S. healthcare spending patterns diverge significantly from other OECD countries.
 
-### Example Visualization
-![Health vs GDP](figures/health_vs_gdp.png)
-
 ## Future work
 
 - Apply clustering to group countries by healthcare effectiveness.
