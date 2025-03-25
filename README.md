@@ -2,7 +2,7 @@
 
 This project explores the relationship between government healthcare expenditure and health outcomes, focusing on average life expectancy across OECD countries. It was developed as a final project for Harvard’s COMPSCI 109A: Introduction to Data Science.
 
-## 📊 Project objective
+## Project objective
 
 To answer the question:  
 **"How effective is healthcare spending in improving a country's life expectancy, controlling for economic and educational factors?"**
