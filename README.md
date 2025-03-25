@@ -7,6 +7,10 @@ This project explores the relationship between government healthcare expenditure
 To answer the question:  
 **"How effective is healthcare spending in improving a country's life expectancy, controlling for economic and educational factors?"**
 
+## View the Notebook
+
+🔍 [Explore the final Jupyter Notebook Here](notebooks/Healthcare_Expenditure_Analysis.ipynb)
+
 ## Key concepts
 
 - Panel data analysis
