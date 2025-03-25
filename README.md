@@ -30,7 +30,6 @@ To answer the question:
 - OECD Public Finance and Life Expectancy datasets  
 - Jupyter Notebook for development
 
-
 ## Findings
 
 - Healthcare expenditure alone is a weak predictor of life expectancy.
@@ -38,6 +37,9 @@ To answer the question:
 - Regularization methods improved model interpretability.
 - Polynomial terms revealed diminishing returns on healthcare spending in some contexts.
 - U.S. healthcare spending patterns diverge significantly from other OECD countries.
+
+### Example Visualization
+![Health vs GDP](figures/health_vs_gdp.png)
 
 ## Future work
 
