@@ -1,35 +1,47 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2821
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+# OECD Healthcare Spending Analysis
 
-\f0\fs24 \cf0 # OECD Healthcare Spending Analysis\
-\
-## Overview\
-This project analyzes the impact of healthcare expenditure on life expectancy across OECD countries using panel regression models, exploratory data analysis (EDA), and regularization techniques.\
-\
-## Project Objectives\
-- Evaluate how effectively healthcare spending predicts life expectancy.\
-- Control for confounding variables like GDP per capita and education spending.\
-- Address multicollinearity through techniques like LASSO and Ridge regression.\
-\
-## Data Sources\
-- [OECD Public Finance Dataset](https://data.oecd.org)\
-- [OECD Life Expectancy Dataset](https://data.oecd.org)\
-- [OECD Potential Years of Life Lost](https://data.oecd.org)\
-\
-## Methodology\
-- Data cleaning and exploratory data analysis using `pandas` and `numpy`.\
-- Regression analysis and diagnostics (multicollinearity detection, VIF analysis).\
-- Regularization techniques (LASSO, Ridge) and polynomial regression to capture complex relationships.\
-\
-## Results\
-- Visualization of country-specific healthcare expenditure and life expectancy trends.\
-- Insights on model performance (R-squared, Adjusted R-squared, model validation).\
-\
-## Installation\
-```bash\
-pip install -r requirements.txt\
-}
+This project explores the relationship between government healthcare expenditure and health outcomes, focusing on average life expectancy across OECD countries. It was developed as a final project for Harvard’s COMPSCI 109A: Introduction to Data Science.
+
+## 📊 Project Objective
+
+To answer the question:  
+**"How effective is healthcare spending in improving a country's life expectancy, controlling for economic and educational factors?"**
+
+## Key Concepts
+
+- Panel data analysis
+- Multiple linear regression
+- Multicollinearity diagnostics (VIF)
+- Regularization: LASSO and Ridge
+- Polynomial regression
+- Data cleaning and visualization
+- Fixed effects for country and year
+
+## 🛠Tools & Technologies
+
+- **Python**
+- `pandas` for data wrangling  
+- `sklearn` for regression and model evaluation  
+- `matplotlib` and `seaborn` for visualization  
+- OECD Public Finance and Life Expectancy datasets  
+- Jupyter Notebook for development
+
+
+## 🔍 Findings
+
+- Healthcare expenditure alone is a weak predictor of life expectancy.
+- Multicollinearity among spending categories (e.g., GDP, education) complicates modeling.
+- Regularization methods improved model interpretability.
+- Polynomial terms revealed diminishing returns on healthcare spending in some contexts.
+- U.S. healthcare spending patterns diverge significantly from other OECD countries.
+
+## Future Work
+
+- Apply clustering to group countries by healthcare effectiveness.
+- Extend model with additional health outcome metrics (e.g., infant mortality).
+- Explore dynamic panel regression or time-series decomposition.
+
+## Author
+
+**SeoYoung Ha**  
+
